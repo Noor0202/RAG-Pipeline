@@ -1,0 +1,22 @@
+# Document Parsing Libraries
+beautifulsoup4
+pypdf2
+python-magic
+lxml
+
+# Embedding and Retrieval
+langchain
+langchain-community
+sentence-transformers
+InstructorEmbedding
+torch
+tqdm
+
+# Data Processing
+pandas
+
+# Database Interaction
+psycopg2
+
+# API and Requests
+requests

@@ -1,0 +1,259 @@
+{
+    "store": {
+        "name": "SuperStore",
+        "location": "123 Market Street",
+        "departments": [
+            {
+                "department": "Fruits",
+                "products": [
+                    {
+                        "id": 1,
+                        "name": "Apple",
+                        "size": "Large",
+                        "color": "Red",
+                        "price": 1.2,
+                        "stock": 150,
+                        "supplier": {
+                            "name": "Fresh Farms",
+                            "contact": "fresh.farms@example.com",
+                            "phone": "+1-800-123-4567"
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "name": "Banana",
+                        "size": "Medium",
+                        "color": "Yellow",
+                        "price": 0.5,
+                        "stock": 200,
+                        "supplier": {
+                            "name": "Tropical Supply",
+                            "contact": "tropical.supply@example.com",
+                            "phone": "+1-800-987-6543"
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "name": "Orange",
+                        "size": "Medium",
+                        "color": "Orange",
+                        "price": 0.8,
+                        "stock": 180,
+                        "supplier": {
+                            "name": "Citrus Growers",
+                            "contact": "citrus.growers@example.com",
+                            "phone": "+1-800-456-7890"
+                        }
+                    }
+                ]
+            },
+            {
+                "department": "Electronics",
+                "products": [
+                    {
+                        "id": 101,
+                        "name": "Laptop",
+                        "brand": "TechBrand",
+                        "model": "X200",
+                        "price": 799.99,
+                        "stock": 50,
+                        "supplier": {
+                            "name": "ElectroSupplies",
+                            "contact": "electro.supplies@example.com",
+                            "phone": "+1-800-321-4321"
+                        },
+                        "specs": {
+                            "processor": "Intel i7",
+                            "ram": "16GB",
+                            "storage": "512GB SSD"
+                        }
+                    },
+                    {
+                        "id": 102,
+                        "name": "Smartphone",
+                        "brand": "GadgetCo",
+                        "model": "S9",
+                        "price": 499.99,
+                        "stock": 100,
+                        "supplier": {
+                            "name": "Gadget Distributors",
+                            "contact": "gadget.distributors@example.com",
+                            "phone": "+1-800-654-3210"
+                        },
+                        "specs": {
+                            "processor": "Snapdragon 888",
+                            "ram": "8GB",
+                            "storage": "128GB"
+                        }
+                    },
+                    {
+                        "id": 103,
+                        "name": "Headphones",
+                        "brand": "SoundX",
+                        "model": "Pro",
+                        "price": 129.99,
+                        "stock": 75,
+                        "supplier": {
+                            "name": "AudioGoods",
+                            "contact": "audio.goods@example.com",
+                            "phone": "+1-800-987-1234"
+                        },
+                        "specs": {
+                            "type": "Over-ear",
+                            "noise_cancelling": true
+                        }
+                    }
+                ]
+            },
+            {
+                "department": "Clothing",
+                "products": [
+                    {
+                        "id": 201,
+                        "name": "T-shirt",
+                        "brand": "StyleWear",
+                        "size": [
+                            "S",
+                            "M",
+                            "L",
+                            "XL"
+                        ],
+                        "color": [
+                            "Red",
+                            "Blue",
+                            "Green"
+                        ],
+                        "price": 19.99,
+                        "stock": {
+                            "S": 50,
+                            "M": 60,
+                            "L": 70,
+                            "XL": 40
+                        },
+                        "supplier": {
+                            "name": "FashionHub",
+                            "contact": "fashion.hub@example.com",
+                            "phone": "+1-800-345-6789"
+                        }
+                    },
+                    {
+                        "id": 202,
+                        "name": "Jeans",
+                        "brand": "DenimKing",
+                        "size": [
+                            "30",
+                            "32",
+                            "34",
+                            "36"
+                        ],
+                        "color": [
+                            "Blue",
+                            "Black"
+                        ],
+                        "price": 49.99,
+                        "stock": {
+                            "30": 30,
+                            "32": 40,
+                            "34": 50,
+                            "36": 20
+                        },
+                        "supplier": {
+                            "name": "DenimWorks",
+                            "contact": "denim.works@example.com",
+                            "phone": "+1-800-456-7891"
+                        }
+                    },
+                    {
+                        "id": 203,
+                        "name": "Jacket",
+                        "brand": "WinterWear",
+                        "size": [
+                            "M",
+                            "L",
+                            "XL"
+                        ],
+                        "color": [
+                            "Black",
+                            "Gray"
+                        ],
+                        "price": 89.99,
+                        "stock": {
+                            "M": 25,
+                            "L": 30,
+                            "XL": 15
+                        },
+                        "supplier": {
+                            "name": "Winter Essentials",
+                            "contact": "winter.essentials@example.com",
+                            "phone": "+1-800-678-1234"
+                        }
+                    }
+                ]
+            }
+        ],
+        "staff": [
+            {
+                "name": "Alice Smith",
+                "role": "Manager",
+                "contact": {
+                    "email": "alice.smith@superstore.com",
+                    "phone": "+1-800-111-2222"
+                }
+            },
+            {
+                "name": "Bob Johnson",
+                "role": "Sales Associate",
+                "contact": {
+                    "email": "bob.johnson@superstore.com",
+                    "phone": "+1-800-222-3333"
+                }
+            },
+            {
+                "name": "Carol Williams",
+                "role": "Stock Clerk",
+                "contact": {
+                    "email": "carol.williams@superstore.com",
+                    "phone": "+1-800-333-4444"
+                }
+            }
+        ]
+    },
+    "promotions": [
+        {
+            "id": "PROMO1",
+            "description": "Buy one get one free on all fruits!",
+            "discount": "50%",
+            "validity": {
+                "start_date": "2024-01-01",
+                "end_date": "2024-01-31"
+            }
+        },
+        {
+            "id": "PROMO2",
+            "description": "20% off on all electronics.",
+            "discount": "20%",
+            "validity": {
+                "start_date": "2024-02-01",
+                "end_date": "2024-02-28"
+            }
+        },
+        {
+            "id": "PROMO3",
+            "description": "Buy 2 jackets and get 1 free.",
+            "discount": "33%",
+            "validity": {
+                "start_date": "2024-03-01",
+                "end_date": "2024-03-31"
+            }
+        }
+    ],
+    "store_hours": {
+        "Monday": "9 AM - 9 PM",
+        "Tuesday": "9 AM - 9 PM",
+        "Wednesday": "9 AM - 9 PM",
+        "Thursday": "9 AM - 9 PM",
+        "Friday": "9 AM - 9 PM",
+        "Saturday": "10 AM - 8 PM",
+        "Sunday": "Closed"
+    }
+}
